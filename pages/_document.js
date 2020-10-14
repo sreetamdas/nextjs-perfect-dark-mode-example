@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
 				<body>
 					<script
 						dangerouslySetInnerHTML={{
-							__html: blockingSetInitialColorMode
+							__html: blockingSetInitialColorMode,
 						}}
 					></script>
 					<Main />
