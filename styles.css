@@ -1,0 +1,27 @@
+:root {
+	--color-primary-accent: #5b34da;
+	--color-primary: #000;
+	--color-background: #fff;
+	--color-secondary-accent: #358ef1;
+}
+
+[data-theme="dark"] {
+	--color-primary-accent: #9d86e9;
+	--color-secondary-accent: #61dafb;
+	--color-primary: #fff;
+	--color-background: #000;
+}
+
+[data-theme="batman"] {
+	--color-primary-accent: #ffff00;
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-primary);
+
+	font-size: 18px;
+	font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Segoe UI,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
+}
